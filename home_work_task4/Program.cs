@@ -7,7 +7,8 @@ Console.WriteLine("Введите число");
 
  while (count <= a)
  {
-    Console.Write(count * 2);
-    count++;
- }
 
+    Console.Write(count *2);
+    count++;
+   
+ }
