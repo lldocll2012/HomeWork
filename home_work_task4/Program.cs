@@ -5,10 +5,10 @@ Console.WriteLine("Введите число");
 
  int count = 1;
 
- while (count <= a)
+ while ((count*2) <= a)
  {
 
-    Console.Write(count *2);
+    Console.Write(count *2 +" ");
     count++;
    
  }
