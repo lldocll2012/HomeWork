@@ -12,25 +12,9 @@ Console.WriteLine("Введите третье число");
 
 int c = Convert.ToInt32(Console.ReadLine());
 
-if (a < b)
-{
-    Console.Write("Большее число= "); 
-    Console.Write(b);
-}
- if (b < a)
- {
-    Console.Write("Большее число= "); 
-    Console.Write(a);
- }
+int max = a;
 
- if (a < c)
-{
-    Console.Write("Большее число= "); 
-    Console.Write(c);
-}
+if (b > max) max = b;
+if (c > max) max = c;
 
-if (b < c)
-{
-    Console.Write("Большее число= "); 
-    Console.Write(c);
-}
+Console.WriteLine("Maximum is " + max);
